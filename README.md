@@ -1,80 +1,114 @@
 # 📦 Inventory Management Dashboard
 
-A modern, data-driven Inventory Management Dashboard built to provide clear visibility into stock levels, product performance, and operational efficiency.
+A scalable and data-driven Inventory Management Dashboard designed to provide real-time visibility into stock levels, operational efficiency, and inventory analytics.
 
 ---
 
 ## 🚀 Overview
 
-The Inventory Management Dashboard centralizes inventory data into a single interface, enabling teams to:
+This system centralizes inventory data into a structured dashboard interface to support:
 
-- Monitor total stock and inventory value  
-- Track low-stock and out-of-stock alerts  
-- Analyze product movement trends  
-- Manage reorder levels efficiently  
+- Stock monitoring  
+- Low inventory alerts  
+- Product tracking  
+- Data-driven restocking decisions  
 
-Designed with scalability and clarity in mind, this dashboard supports data-driven decision-making in retail, warehousing, and supply chain environments.
-
----
-
-## ✨ Core Features
-
-### 📊 Summary Metrics
-- **Total Products**
-- **Total Inventory Value**
-- **Low Stock Items**
-- **Out-of-Stock Items**
-- **Pending Orders**
-
-### 📋 Inventory Table
-- Product Name  
-- SKU  
-- Category  
-- Quantity Available  
-- Reorder Level  
-- Status Indicator  
-
-### 📈 Analytics & Insights
-- Stock trend visualization  
-- Category distribution charts  
-- Inventory turnover insights  
-- Restocking frequency analysis  
-
-### 🔍 Filtering & Search
-- Filter by category  
-- Filter by stock status  
-- Search by product name or SKU  
-- Sort by quantity, date, or value  
+It is designed to be modular, extensible, and production-ready.
 
 ---
 
-## 🎯 Intended Use Cases
+## 🏗 1. Technical Architecture
 
-- Retail Inventory Management  
-- E-commerce Stock Monitoring  
-- Warehouse Operations  
-- Supply Chain Tracking  
-- Manufacturing Inventory Control  
+### Architecture Style
+- Modular component-based structure  
+- Layered separation (UI / Business Logic / Data Layer)  
+
+### Core Layers
+
+**Presentation Layer**
+- Dashboard UI  
+- Analytics Views  
+- Inventory Table  
+- Alert Panels  
+
+**Application Layer**
+- Inventory management logic  
+- Stock validation rules  
+- Alert triggering system  
+- Filtering and sorting engine  
+
+**Data Layer**
+- Product dataset  
+- Stock level records  
+- Order history  
+- Category metadata  
+
+### Scalability Considerations
+- Component reusability  
+- Extendable analytics modules  
+- Support for real-time integration  
+- Ready for API-driven backend connection  
 
 ---
 
-## 🔮 Future Enhancements
+## ⚙ 2. Implementation Details
 
-- Real-time data integration  
-- Role-based access control  
+### Core Modules
+
+**Inventory Module**
+- CRUD operations for products  
+- Stock quantity updates  
+- Reorder level configuration  
+
+**Analytics Module**
+- Stock movement trends  
+- Category distribution analysis  
+- Inventory turnover metrics  
+
+**Alert System**
+- Low-stock detection  
+- Out-of-stock flagging  
+- Threshold-based notifications  
+
+### Key Functionalities
+- Dynamic filtering  
+- Multi-column sorting  
+- Search by SKU or product name  
+- Status indicators (In Stock / Low Stock / Out of Stock)  
+
+
+---
+
+## ⚠ 3. Challenges Faced
+
+- Designing scalable data structures for inventory growth  
+- Preventing performance bottlenecks with large datasets  
+- Balancing visual clarity with dense operational data  
+- Implementing accurate threshold-based alert logic  
+- Ensuring modular structure for future backend integration  
+
+---
+
+## 🔮 4. Future Roadmap
+
+### Short-Term
+- Backend API integration  
+- Persistent database support  
+- User authentication and role management  
+
+### Mid-Term
+- Real-time inventory updates  
 - Automated reorder recommendations  
-- Supplier performance analytics  
-- Mobile responsiveness  
-- AI-based demand forecasting  
+- Supplier management integration  
+
+### Long-Term
+- AI-powered demand forecasting  
+- Predictive stock optimization  
+- Multi-warehouse support  
+- Advanced reporting and export capabilities  
 
 ---
-
-## 🤝 Contributing
-
-1. Fork the repository  
-2. Create a feature branch
-3. Commit your changes
-4. Open a pull request
 
 ## 📄 License
+
 Distributed under the MIT License.
