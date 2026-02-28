@@ -1,11 +1,9 @@
 # 📦 Inventory Management Dashboard
-
 A scalable and data-driven Inventory Management Dashboard designed to provide real-time visibility into stock levels, operational efficiency, and inventory analytics.
 
 ---
 
 ## 🚀 Overview
-
 This system centralizes inventory data into a structured dashboard interface to support:
 
 - Stock monitoring  
@@ -18,7 +16,6 @@ It is designed to be modular, extensible, and production-ready.
 ---
 
 ## 🏗 1. Technical Architecture
-
 ### Architecture Style
 - Modular component-based structure  
 - Layered separation (UI / Business Logic / Data Layer)  
@@ -90,7 +87,6 @@ It is designed to be modular, extensible, and production-ready.
 ---
 
 ## 🔮 4. Future Roadmap
-
 ### Short-Term
 - Backend API integration  
 - Persistent database support  
@@ -110,5 +106,4 @@ It is designed to be modular, extensible, and production-ready.
 ---
 
 ## 📄 License
-
 Distributed under the MIT License.
